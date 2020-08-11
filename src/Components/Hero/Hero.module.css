@@ -1,0 +1,57 @@
+/*   --------------       HERO SECTION    --------------    */
+.hero {
+  text-align: left;
+  font-family: "Rockwell_Regular";
+  color: white;
+  background-color: black;
+  height: 56rem;
+  width: 100%;
+  opacity: 92%;
+}
+
+.hero button {
+  border: none;
+  border-radius: 80px;
+  width: 165px;
+  padding: 4px 15px;
+  font-size: 1.5rem;
+  margin-right: 35px;
+  background-color: #f85f00;
+  color: white;
+}
+
+.hero button:focus {
+  outline: 0;
+}
+
+.hero p {
+  margin-bottom: 130px;
+  font-size: 1.5rem;
+  opacity: 69%;
+}
+
+.hero_row {
+  background-image: url(../../images/HeroImage.jpg);
+  background-repeat: no-repeat;
+
+  background-position: right bottom;
+  background-size: 65%;
+}
+button.moreButton {
+  background-color: transparent;
+  border: 1px solid #f85f00;
+}
+.moreButton:hover {
+  background-color: #f85f00;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.jumbotron {
+  background-color: black;
+  margin-top: 140px;
+  margin-left: 130px;
+}
+
+.orange {
+  color: #f85f00;
+}

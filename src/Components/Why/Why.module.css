@@ -1,0 +1,31 @@
+.why_section {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.card {
+  padding: 30px 30px;
+  margin: 0 20px !important;
+  border-radius: 31px;
+}
+.card h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card_body {
+  padding: 0 30px;
+  margin-top: 20px;
+}
+
+.deck {
+  margin: 0 30px !important;
+}
+.dottedlines {
+  width: 63%;
+}
+.image {
+  margin: 20px auto;
+
+  width: 20%;
+}

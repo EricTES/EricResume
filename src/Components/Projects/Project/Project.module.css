@@ -1,0 +1,49 @@
+.projects_picture {
+  height: 270px;
+  width: auto;
+
+  margin-bottom: 25px;
+}
+
+.top_layer {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  width: 78%;
+  height: 92%;
+  color: white;
+  font-size: 3rem;
+  opacity: 0;
+  transition: 0.45s ease-in-out;
+  margin-left: 19px;
+  border-radius: 15px;
+  padding: 4rem 2rem;
+}
+
+.top_layer:hover {
+  opacity: 100;
+  background-color: #141c3a;
+}
+
+.top_layer p {
+  font-size: 1rem;
+}
+
+.top_layer h2 {
+  font-size: 1.5rem;
+}
+
+.learn_button {
+  color: white;
+  border-color: #f85f00;
+  border-radius: 30px;
+  width: 140px;
+  height: 35px;
+}
+
+.learn_button:hover {
+  border-radius: 30px;
+  color: white;
+  background-color: #f85f00;
+  border-color: #f85f00;
+}
